@@ -1,0 +1,91 @@
+@import "~video-react/styles/scss/video-react";
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 75px 0px 0px;
+  &__text {
+    &__main {
+      display: flex;
+      flex-direction: column;
+      padding: 0 172.2px 0 0;
+    }
+    &__title {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 41px;
+      line-height: 107.9%;
+      color: #093636;
+      padding-bottom: 27px;
+    }
+    &__page {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 34px;
+      color: #00325a;
+      padding-bottom: 25.2px;
+    }
+    a {
+      text-decoration: none;
+      color: #226699;
+    }
+  }
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 0 256px 0 0;
+  }
+  &__btn {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    padding: 15.38px 46.58px 15.38px 47px;
+    margin-bottom: 17.95px;
+    border-radius: 5.12775px;
+    border: none;
+  }
+  .btn__doctor {
+    background: #226699;
+  }
+  .btn__free {
+    background-color: inherit;
+    border: 2.56388px solid #c6e1f6;
+    color: #6da4cd;
+  }
+  &__video {
+    width: 60%;
+  }
+
+  @media (max-width: 1023px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+    &__text {
+      order: 2;
+      &__main {
+        padding: 0 0px 0 0;
+      }
+      &__title {
+        font-size: 24px;
+      }
+      &__page {
+        font-size: 15px;
+      }
+    }
+    &__buttons {
+      padding: 0;
+      font-size: 14px;
+    }
+    &__video {
+      width: 100%;
+      order: 1;
+      padding-bottom: 50px;
+    }
+  }
+}
