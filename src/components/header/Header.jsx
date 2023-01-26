@@ -7,15 +7,16 @@ function Header() {
   return (
     <section className="header">
       <BaseContainer>
-        <div className="header__logo">point</div>
-        <div className="header__menu">
+        <div className="header__container">
+          <div className="header__logo">point</div>
+          {/* <div className="header__menu"></div>
           <img
-            src={burger}
-            alt="menu-burger"
-            width="32px"
-            height="32px"
-            className="header__menu__burger"
-          />
+          src={burger}
+          alt="menu-burger"
+          width="32px"
+          height="32px"
+          className="header__menu__burger"
+        /> */}
           <ul className="header__menu__items">
             <li className="header__menu__item">О приложении</li>
             <li className="header__menu__item">Преимущества</li>

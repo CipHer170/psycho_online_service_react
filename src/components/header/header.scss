@@ -1,16 +1,19 @@
 .header {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
+  &__container {
+    display: flex;
+  }
   &__logo {
+    padding-top: 23px;
+    padding-bottom: 24px;
+    min-width: 150px;
+    margin-right: 20px;
+
     font-family: "Sulphur Point";
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 48px;
     color: #306e9d;
-    padding-top: 23px;
-    padding-bottom: 24px;
   }
   &__menu {
     display: block;
@@ -32,7 +35,8 @@
     }
     &__items {
       display: flex;
-      flex-direction: row;
+      // flex-direction: row;
+      width: calc(100% - 150px - 20px);
     }
     &__item {
       display: block;
@@ -43,7 +47,8 @@
       line-height: 21px;
       text-align: center;
       color: #093636;
-      padding-right: 80px;
+      // padding-right: 80px;
+      padding: 36px 40px;
     }
   }
 }

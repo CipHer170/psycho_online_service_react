@@ -1,0 +1,43 @@
+.profile {
+  background-image: url("../../assets/profile_back.svg");
+  background-position: top -47px left 54px;
+  background-size: 1151px 672px;
+  background-repeat: no-repeat;
+  padding-top: 184.6px;
+
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    // padding: 100px 75px 0px 0px;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    max-width: 460px;
+    &__title {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 38px;
+      color: #093636;
+    }
+    &__page {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 34px;
+      color: #00325a;
+    }
+  }
+  &__img {
+    .mainIphone {
+      order: 1;
+      position: relative;
+      top: -220px;
+      left: -48px;
+      max-width: 300px;
+    }
+  }
+}

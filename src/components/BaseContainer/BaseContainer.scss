@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap");
 .base-container {
-  max-width: 1446px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0 40px;
+
   @media (max-width: 1023px) {
     padding: 0 20px;
   }

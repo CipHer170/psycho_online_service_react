@@ -1,8 +1,10 @@
-@import "~video-react/styles/scss/video-react";
+
 .intro {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 100px 75px 0px 0px;
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 75px 0px 0px;
+  }
   &__text {
     &__main {
       display: flex;
@@ -16,16 +18,17 @@
       font-size: 41px;
       line-height: 107.9%;
       color: #093636;
-      padding-bottom: 27px;
+      padding-bottom: 21px;
     }
     &__page {
-      font-family: "Nunito";
+      font-family: "Nunito" sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 25px;
       line-height: 34px;
       color: #00325a;
-      padding-bottom: 25.2px;
+      padding-bottom: 27.2px;
+      padding-right: 137.7px;
     }
     a {
       text-decoration: none;
@@ -35,16 +38,16 @@
   &__buttons {
     display: flex;
     flex-direction: column;
-    padding: 0 256px 0 0;
+    padding: 0 370px 0 0;
   }
   &__btn {
-    font-family: "Raleway";
+    font-family: "Raleway" sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     color: #ffffff;
-    padding: 15.38px 46.58px 15.38px 47px;
+    padding: 16.380000000000003px 28.579999999999984px 13.380000000000003px 32px;
     margin-bottom: 17.95px;
     border-radius: 5.12775px;
     border: none;
@@ -59,13 +62,16 @@
   }
   &__video {
     width: 60%;
+    height: 362px;
   }
 
   @media (max-width: 1023px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 0;
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 0;
+    }
     &__text {
       order: 2;
       &__main {
