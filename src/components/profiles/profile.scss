@@ -13,7 +13,10 @@
   &__text {
     display: flex;
     flex-direction: column;
-    max-width: 460px;
+    max-width: 457px;
+    position: relative;
+    right: -146px;
+    top: -25px;
     &__title {
       font-family: "Raleway";
       font-style: normal;
@@ -29,6 +32,8 @@
       font-size: 25px;
       line-height: 34px;
       color: #00325a;
+      position: relative;
+      top: 31px;
     }
   }
   &__img {
