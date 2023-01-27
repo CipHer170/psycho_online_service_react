@@ -29,7 +29,6 @@ function DownloadPage() {
             <div className="downloadPage__buttons">
               <a
                 href="https://www.kobinet.com.tr/"
-                target="_blank"
                 class="market-btn apple-btn"
                 role="button"
               >
@@ -38,7 +37,6 @@ function DownloadPage() {
               </a>
               <a
                 href="https://www.kobinet.com.tr/"
-                target="_blank"
                 class="market-btn google-btn"
                 role="button"
               >

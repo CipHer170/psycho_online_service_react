@@ -21,7 +21,6 @@ function CallProfile() {
             <div className="callProfile__buttons">
               <a
                 href="https://www.kobinet.com.tr/"
-                target="_blank"
                 class="market-btn apple-btn"
                 role="button"
               >
@@ -30,7 +29,6 @@ function CallProfile() {
               </a>
               <a
                 href="https://www.kobinet.com.tr/"
-                target="_blank"
                 class="market-btn google-btn"
                 role="button"
               >

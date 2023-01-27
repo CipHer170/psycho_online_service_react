@@ -1,11 +1,17 @@
 .callProfile {
+  background-image: url("../../assets/call_back.svg");
+  background-repeat: no-repeat;
+  background-position: top -260px right 0px;
+  background-size: 1094px 634px;
+  // padding-top: 184.6px;
+  // padding-bottom: 60px;
   &__container {
     display: flex;
     position: relative;
     justify-content: space-between;
     top: -253px;
     left: -3px;
-    background-color: aqua;
+    // background-color: aqua;
   }
   &__text {
     max-width: 482px;
@@ -38,6 +44,13 @@
       color: #00325a;
       padding-top: 27px;
     }
+  }
+  &__buttons {
+    position: relative;
+    top: -70px;
+    left: -21px;
+    display: flex;
+    justify-content: space-evenly;
   }
   &__img {
     padding-right: 223px;

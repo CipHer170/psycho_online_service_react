@@ -1,13 +1,6 @@
 .downloadPage {
-  background-image: url("../../assets/download_1.svg");
-  background-position: top 185px right 51px;
-  background-size: 1149px 672px;
-  background-repeat: no-repeat;
-  padding-top: 184.6px;
-  padding-bottom: 60px;
   &__container {
-    display: flex;
-    // background-color: #00325a;
+    // display: flex;
   }
   &__text {
     width: 480px;
@@ -64,6 +57,12 @@
     color: #226699;
   }
   &__img {
+    background-image: url("../../assets/download_1.svg");
+    background-position: top 185px right 0px;
+    background-size: 1149px 672px;
+    background-repeat: no-repeat;
+    padding-top: 184.6px;
+    padding-bottom: 60px;
     .mainIphone {
       position: relative;
       top: -39px;
@@ -71,8 +70,11 @@
     }
   }
   &__buttons {
+    position: relative;
+    top: 2px;
+    left: -25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }
 
