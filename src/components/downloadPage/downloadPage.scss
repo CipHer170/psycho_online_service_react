@@ -1,6 +1,12 @@
 .downloadPage {
+  background-image: url("../../assets/download_1.svg");
+  background-position: top 185px right 0px;
+  background-size: 1149px 672px;
+  background-repeat: no-repeat;
+  padding-top: 184.6px;
+  padding-bottom: 60px;
   &__container {
-    // display: flex;
+    display: flex;
   }
   &__text {
     width: 480px;
@@ -57,12 +63,6 @@
     color: #226699;
   }
   &__img {
-    background-image: url("../../assets/download_1.svg");
-    background-position: top 185px right 0px;
-    background-size: 1149px 672px;
-    background-repeat: no-repeat;
-    padding-top: 184.6px;
-    padding-bottom: 60px;
     .mainIphone {
       position: relative;
       top: -39px;
