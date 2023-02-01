@@ -3,11 +3,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
       display: flex;
       flex-wrap: wrap;
-      // justify-content: space-around;
-      // background-color: #a3c9e6;
     }
   }
   &__logo {
@@ -30,7 +28,6 @@
     .burger {
       display: none;
     }
-
     &__items {
       display: flex;
       width: calc(100% - 150px - 20px);
@@ -46,7 +43,7 @@
       color: #093636;
       padding: 36px 40px;
     }
-    @media (max-width: 768px) and (min-width(468px)) {
+    @media (max-width: 768px) {
       &__burger {
         display: flex;
         justify-content: center;
