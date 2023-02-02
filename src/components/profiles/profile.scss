@@ -45,4 +45,11 @@
       max-width: 300px;
     }
   }
+  @media (max-width: 768px) {
+    background-image: url("../../assets/profile_back.svg");
+    // background-position: top -47px left 54px;
+    background-size: 296px 672px;
+    background-repeat: no-repeat;
+    padding-top: 184.6px;
+  }
 }
