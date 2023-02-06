@@ -24,17 +24,8 @@
     line-height: 107.9%;
     color: #093636;
     padding-bottom: 31px;
-    &-secondary {
-      font-family: "Raleway";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 32px;
-      line-height: 38px;
-      color: #093636;
-      padding-top: 41px;
-      padding-bottom: 30px;
-    }
   }
+
   &__page {
     font-family: "Nunito";
     font-style: normal;
@@ -57,6 +48,16 @@
     // padding-right: 54px;
     float: left;
   }
+  &__secondary {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #093636;
+    padding-top: 41px;
+    padding-bottom: 30px;
+  }
 
   a {
     text-decoration: none;
@@ -75,6 +76,18 @@
     left: -25px;
     display: flex;
     justify-content: space-evenly;
+  }
+  @media (max-width: 768px) {
+    background-image: url("../../assets/download_1.svg");
+    background-position: top 185px right 100px;
+    background-size: 520px 672px;
+    background-repeat: no-repeat;
+    // padding-top: 184.6px;
+    // padding-bottom: 60px;
+    &__container {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 

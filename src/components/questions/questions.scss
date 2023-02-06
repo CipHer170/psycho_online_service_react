@@ -1,0 +1,74 @@
+.questions {
+  &__container {
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(184, 184, 184, 0.15);
+    border-radius: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 114px;
+    padding-right: 198px;
+  }
+  &__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 107.9%;
+    color: #093636;
+  }
+  &__buttons {
+    text-align: center;
+    padding: 90px;
+    &_btn {
+      background: #226699;
+      border-radius: 5.12775px;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      color: #ffffff;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      padding: 15px 47px;
+    }
+    &_notes {
+      padding-top: 14px;
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #434958;
+    }
+  }
+}
+
+.question {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 65px;
+  grid-row-gap: 28px;
+  padding-top: 42px;
+
+  &__items {
+    &__title {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 23px;
+      color: #093636;
+      padding-bottom: 20px;
+    }
+    &__page {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #00325a;
+    }
+  }
+}

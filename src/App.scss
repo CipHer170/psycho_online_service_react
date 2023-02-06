@@ -27,10 +27,15 @@ body {
   // overflow: hidden;
   width: 100%;
   margin: 0;
+  background-color: #f9fcff;
 }
 
 img,
 video,
 iframe {
   max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #226699;
 }

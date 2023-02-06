@@ -4,6 +4,7 @@ import DownloadPage from "./components/downloadPage/DownloadPage";
 import "../src/App.scss";
 import Profiles from "./components/profiles/Profiles";
 import CallProfile from "./components/call/CallProfile";
+import Questions from "./components/questions/Questions";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <DownloadPage />
       <Profiles />
       <CallProfile />
+      <Questions />
     </div>
   );
 }
