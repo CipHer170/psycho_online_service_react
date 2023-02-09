@@ -19,15 +19,14 @@ function Questions() {
               return <Question {...itemData} />;
             })}
           </div>
-
-          <div className="questions__buttons">
-            <button className="questions__buttons_btn">
-              Хочу решить свою ситуацию
-            </button>
-            <p className="questions__buttons_notes">
-              *Первые 10 минут консультации бесплатно
-            </p>
-          </div>
+        </div>
+        <div className="questions__buttons">
+          <button className="questions__buttons_btn">
+            Хочу решить свою ситуацию
+          </button>
+          <p className="questions__buttons_notes">
+            *Первые 10 минут консультации бесплатно
+          </p>
         </div>
       </BaseContainer>
     </div>

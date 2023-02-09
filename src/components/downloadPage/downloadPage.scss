@@ -5,6 +5,9 @@
   background-repeat: no-repeat;
   padding-top: 184.6px;
   padding-bottom: 60px;
+  background-color: rebeccapurple;
+  position: relative;
+  z-index: -5;
   &__container {
     display: flex;
   }

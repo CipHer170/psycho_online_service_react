@@ -1,9 +1,25 @@
 .profile {
-  background-image: url("../../assets/profile_back.svg");
+  // background-image: url("../../assets/profile_back.svg");
   background-position: top -47px left 54px;
-  background-size: 1151px 672px;
+  // background-size: 1151px 672px;
   background-repeat: no-repeat;
   padding-top: 184.6px;
+  position: relative;
+
+  &::after {
+    background-image: url("../../assets/profile_back.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    content: "";
+    // width: 678.76px;
+    // height: 906.22px;
+    top: -50px;
+    z-index: -4;
+    left: 373px;
+    right: 0;
+    bottom: 0;
+    // background-position: top -47px left 54px;
+  }
 
   &__container {
     display: flex;
@@ -43,6 +59,7 @@
       top: -220px;
       left: -48px;
       max-width: 300px;
+      z-index: 4;
     }
   }
   @media (max-width: 768px) {

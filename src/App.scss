@@ -28,6 +28,8 @@ body {
   width: 100%;
   margin: 0;
   background-color: #f9fcff;
+  position: relative;
+  z-index: -6;
 }
 
 img,

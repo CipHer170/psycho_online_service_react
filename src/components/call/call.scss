@@ -1,8 +1,24 @@
 .callProfile {
-  background-image: url("../../assets/call_back.svg");
+  // background-image: url("../../assets/call_back.svg");
   background-repeat: no-repeat;
-  background-position: top -260px right 86px;
-  background-size: 1094px 634px;
+  // background-position: top -260px right 86px;
+  // background-size: 1094px 634px;
+  background-color: #93caf8;
+  position: relative;
+  z-index: 3;
+
+  &::after {
+    background-image: url("../../assets/call_back.svg");
+    position: absolute;
+    z-index: -3;
+    background-repeat: no-repeat;
+    content: "";
+    top: -50px;
+    left: 160px;
+    right: 0;
+    bottom: 0;
+    // background-position: top -47px left 54px;
+  }
 
   &__container {
     display: flex;
