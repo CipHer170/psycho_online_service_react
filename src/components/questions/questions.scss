@@ -1,12 +1,12 @@
 .questions {
   &__container {
-    background: #ffffff;
+    // background: #f05151;
+    text-align: center;
     box-shadow: 0px 4px 20px rgba(184, 184, 184, 0.15);
     border-radius: 100px;
     padding-top: 90px;
-    padding-bottom: 90px;
-    padding-left: 114px;
-    padding-right: 198px;
+    max-width: fit-content;
+    padding-left: 21px;
   }
   &__title {
     font-family: "Raleway";
@@ -47,15 +47,17 @@
 
 .question {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 65px;
-  grid-row-gap: 28px;
+  grid-template-columns: repeat(3, 333px);
+  grid-template-rows: repeat(2, 443px);
+  grid-column-gap: 52px;
+  grid-row-gap: 50px;
   padding-top: 42px;
 
   &__items {
-    &__pages {
-      background-color: #00325a;
-      max-height: 500px;
+    // background-color: #fffb08;
+    &__page {
+      // background-color: #10ff08;
+      text-align: left;
     }
     &__title {
       font-family: "Raleway";

@@ -11,9 +11,7 @@ function Question({ image, title, page }) {
       <div className="question__items__page">
         {page.length > 89 ? page.slice(0, show ? 89 : 114) : page}
       </div>
-      <button onClick={() => setShow(!show)}>
-        {show ? "show more" : "show less"}
-      </button>
+      <button onClick={() => setShow(!show)}>{show ? "more" : "less"}</button>
     </div>
   );
 }
