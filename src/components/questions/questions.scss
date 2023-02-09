@@ -53,6 +53,10 @@
   padding-top: 42px;
 
   &__items {
+    &__pages {
+      background-color: #00325a;
+      max-height: 500px;
+    }
     &__title {
       font-family: "Raleway";
       font-style: normal;

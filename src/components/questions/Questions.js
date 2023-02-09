@@ -1,11 +1,11 @@
 // import React, { useState } from "react";
 import data from "../data";
+
 import BaseContainer from "../BaseContainer/BaseContainer";
+import Question from "./Question";
 import "./questions.scss";
-import { useState } from "react";
 
 function Questions() {
-  const [show, setShow] = useState(false);
   return (
     <div className="questions">
       <BaseContainer>
@@ -14,17 +14,9 @@ function Questions() {
             С какими запросами обращаются в <a href="/home">Point?</a>
           </h1>
           <div className="question">
-            {data.map(({ title, page, image }) => {
-              return (
-                <div className="question__items">
-                  <img src={image} alt="" />
-                  <h3 className="question__items__title">{title}</h3>
-                  <div className="question__items__page">
-                    {page}
-                    <button>{show ? "show more" : "show less"}</button>
-                  </div>
-                </div>
-              );
+            {data.map((itemData) => {
+              const { title, page, image } = itemData;
+              return <Question {...itemData} />;
             })}
           </div>
 
